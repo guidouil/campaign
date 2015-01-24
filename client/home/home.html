@@ -6,6 +6,8 @@
           <h1>Welcome to the demo</h1>
           {{#unless isLoggedIn}}
           <p>Please <a href="/sign-in">login</a> to try it out</p>
+          {{else}}
+          <p>Are you an <a href="/admin">Admin</a>?</p>
           {{/unless}}
         </div>
       </div>
